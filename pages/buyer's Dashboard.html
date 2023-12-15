@@ -3,144 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buyers Dashboard</title>
-    
+    <title>Buyers dashboard</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="/upskill-group4-master/css/buyer's Dashboard.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/buyer's Dashboard.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <section>
-        <input type="checkbox" id="check">
-        <header>
-            <div class="logo">
-                <img src="../image/Group 26.png" alt="">
-            </div>
-            <div class="nav-items">
-                <a href="#">HOME</a>
-                <a href="#">EXPLORE</a>
-                <a href="#">ABOUT US</a>
-                <a href="#">CONTACT US</a>
-            </div>
-            <label for="check">
-                <img src="../image/Vector (2).png" alt="" class="menu-btn">
-                <p class="cancel-btn">Cancel</p>
-            </label>
-        </header>
-        <div class="greetings">
-            <h1>WELCOME! Temmy</h1>
-        </div>
-        <div class="search-section">
-            <img src="../image/mdi_cart.png" alt="imags" class="cart">
-            <div class="search-bar-container">
-                <input type="text" class="search-bar" placeholder="  Search ">
-                <button class="search-button">Search</button>
-            </div>
-        </div>
-        <div class="buyer-summary">
-            <div class="dashboard-section">
-                <div class="dashboard-nav">
-                    <a href="#" class="nav-dash">Dashboard</a> 
-                </div>
-                <div class="second-box">
-                    <a href="#" class="nav">Connect</a>
-                    <a href="#" class="nav">Product</a>
-                    <a href="#" class="nav">Order</a> 
-                    <a href="#" class="nav">Tracking</a>
-                </div>
-            </div>
-
-            <div class="profile-delivery-info">
-                <div class="profile-section">
-                    <div class="edit-profile">
-                        <h4>Your Profile</h4>
-                        <div class="edit-icon">
-                            <img src="../image/Vector (1).png" alt="">
-                        </div>
-                    </div>
-                    <div class="pics-name-phone">
-                        <div class="pics">
-                            <img src="../image/Ellipse 9.png" alt="">
-                        </div>
-                        <div class="name-section">
-                            <h4>Full Name</h4>
-                            <small>Rejoice Temmy</small>
-                            <h4>Gender</h4>
-                            <small>Female</small>
-                            <h4>Email</h4>
-                            <small class="push-me">temmyj@yahoo.com</small>
-                        </div>
-                        <div class="phone-number-section">
-                            <h4>Phone Number</h4>
-                            <small>091234567892</small>
-                            <h4>Total Amount Spent</h4>
-                            <small>N395,000</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="delivery-order-history-section">
-                    <div class="delivery-info">
-                        <h4 class="color-me">Delivery Information</h4>
-                        <div class="other-info">
-                            <h4>Address</h4>
-                            <small>12, Kano Street Yaba</small>
-                            <h4>City</h4>
-                            <small>Lagos</small>
-                            <h4>State</h4>
-                            <small>Lagos</small>
-                        </div>
-                    </div>
-                    <div class="order-history-section">
-                        <h4 class="color-me">Order History</h4>
-                        <div class="other-info">
-                            <h4>Order ID</h4>
-                            <small>YK23479W</small>
-                            <h4>Total</h4>
-                            <small>N56,000</small>
-                            <h4>Status</h4>
-                            <small>pending</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <footer>
-            <div class="foot">
-                <div class="fot1">
-                    <div class="side"><a href="./pages/">Terms of use</a></div>
-                    <div class="side"><a href="./pages/explore.html">Explore </a></div>
-                    <div class="side"><a href="./pages/privacyPolicy.html">Privacy Policy</a></div>
     
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="../image/Group 26.png"></a>
                 </div>
-                <div class="fot2">
-                    <div class="side"><a href="./pages/about.html">About us</a></div>
-                    <div class="side"><a href="./pages/feedback&Rating.html">feedback</a></div>
-                    <div class="side"><a href="./pages/faq.html">FAQ</a></div>
+                <div class="main_list" id="mainListDiv">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/explore.html">EXPLORE</a></li>
+                        <li><a href="./pages/about.html">ABOUT US</a></li>
+                        <li><a href="./pages/contactUs.html">CONTACT US</a></li>
+                        <li><a href="./pages/login.html">LOGIN</a></li>
+                    </ul>
                 </div>
-                <div class="fot3">
-                    <div class="side">Android</div>
-                    <div class="side">iphone</div>
-                    <div class="side">....</div>
-                </div>
-                <div class="fot4">
-                    <div class="side"><a href="./pages/copyright.html">Copy Right</a></div>
-                    <div class="side"><a href="./pages/contactUs.html">Contact Us</a></div>
-                    <div class="side"><a href="./pages/privacyPolicy.html">Privacy</a></div>
+                <div class="media_button">
+                    <button class="main_media_button" id="mediaButton">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
-            <div class="footerline"><hr></div>
-            <div class="lastfoot">
-                <div class="one">2023 &copy;Farmer’s Place</div>
-                <div class="two">Terms and Privacy Policy</div>
-                <div class="three"><img src="../image/twiter.png"><img src="../image/instagram.png"><img src="../image/facebook.png"></div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section">
+            <div class="customer--name-search">
+                <p class="name">
+                    WELCOME! Temmy
+                </p>
+                <form class="spr">
+                   <a href="../pages/connectingPage.html"><img  src="../image/mdi_cart.svg" alt="" class="cart"></a> 
+
+                    <span class="img--btn">
+                        <img src="../image/Search.svg" alt="" class="com-icon">
+                        <input type="text" class="cover--box" placeholder="search">
+
+                        <button class="action-btn">Search</button>
+                    </span>
+                </form>
             </div>
-        </footer> 
-    </section>
+
+            <div class="div-head">
+                <div class="dash-board">
+                    <button class="button">Dashboard</button>
+                    <ul class="ul">
+                        <li><a href="#">Connect</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Tracking</a></li>
+                    </ul>
+                </div>
+                <div class="second-sub">
+                    <div class="profile">
+                        <div class="p2">
+                            <span>Your profile</span>
+                            <img src="../image/Vector (2).svg" alt="">
+                        </div>
+                        <div class="p3">
+                            <img src="../image/buyer.jpg" alt="">
+                            <div class="sub-div ">
+                                <h5>Full name</h5>
+                                <span>rejoice temmy</span>
+                                <h5>gender</h5>
+                                <span>female</span>
+                                <h5>email</h5>
+                                <span>temmyj@yahoo.com</span>
+                            </div>
+                            <div class="sub-div2">
+                                <h5>phone number</h5>
+                                <span>091234567892</span>
+                                <h5>total amount spent</h5>
+                                <span>N395,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="caleb">
+                        <div class="infoo">
+                            <h4 class="grn">delivery information</h4>
+                            <h2>address</h2>
+                            <p>12 kano street yaba</p>
+                            <h2>city</h2>
+                            <p>Lagos</p>
+                            <h2>state</h2>
+                            <p>Lagos</p>
+                        </div>
+                        <div class="history infoo">
+                            <h4 class="grn">Order history</h4>
+                            <h2 >order id</h2>
+                            <p>YK23479W</p>
+                            <h2>Total</h2>
+                            <p>56,000</p>
+                            <h2>status</h2>
+                            <p>pending</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../script.js"></script>
 </body>
 </html>

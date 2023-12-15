@@ -9,34 +9,37 @@
 </head>
 <body>
     <!-- the header section -->
-    <header class="header">
-        <a href="a" class="logo"> <img src="../image/connecting logo.png" alt="Farmer's side Logo"> </a>
-
-        <label for="checkbox" class="icons">
-            <div id="menu-icon">
-                <div></div>
-                <div></div>
-                <div></div>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="../image/Group 26.png"></a>
+                </div>
+                <div class="main_list" id="mainListDiv">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/explore.html">EXPLORE</a></li>
+                        <li><a href="./pages/about.html">ABOUT US</a></li>
+                        <li><a href="./pages/contactUs.html">CONTACT US</a></li>
+                        <li><a href="./pages/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="media_button">
+                    <button class="main_media_button" id="mediaButton">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
             </div>
-
-            <div id="close-icon"><h2>x</h2></div>
-
-            <input type="checkbox" id="checkbox">
-        </label>
-
-        <nav class="navbar">
-            <a href="../index.html">Home</a>
-            <a href="../pages/explore.html">Explore</a>
-            <a href="../pages/about.html">About us</a>
-            <a href="../pages/contact us.html">Contact us</a>
         </nav>
     </header>
 
     <!-- the farmer's details (table) section  -->
-    <div>
+    <div class="start">
         <table class="connectingDetails">
             <caption><h1>Connect With Farmers</h1></caption>
-            <tr><td><img src="../image/Shukurat's photo.png" alt="Shukurat's photo"></td><td>
+            <tr><td><a href="./productPage.html"><img src="../image/Shukurat's photo.png" alt="Shukurat's photo"></a></td><td>
                 <table class="innerCell">
                     <tr><td>Reviews</td><td>299</td></tr>
                     <tr><td>Name</td><td>Shukurat</td></tr>
@@ -49,7 +52,7 @@
                 </table>
             </td></tr>
     
-            <tr><td><img src="../image/Joe's photo.png" alt="Joe's photo"></td><td>
+            <tr><td><a href="./productPage.html"><img src="../image/Joe's photo.png" alt="Joe's photo"></a></td><td>
                 <table class="innerCell">
                     <tr><td>Reviews</td><td>150</td></tr>
                     <tr><td>Name</td><td>Joe</td></tr>
@@ -62,7 +65,7 @@
                 </table>
             </td></tr>
     
-            <tr><td><img src="../image/Adaeze's photo.png" alt="Adaeze's photo"></td><td>
+            <tr><td><a href="./productPage.html">img src="../image/Adaeze's photo.png" alt="Adaeze's photo"></a></td><td>
                 <table class="innerCell">
                     <tr><td>Reviews</td><td>305</td></tr>
                     <tr><td>Name</td><td>Adaeze</td></tr>
@@ -75,7 +78,7 @@
                 </table>
             </td></tr>
     
-            <tr><td><img src="../image/Emmanuel's photo.png" alt="Emmanuel's photo"></td><td>
+            <tr><td><a href="./productPage.html"><img src="../image/Adaeze's photo.png" alt="Adaeze's photo"></a><img src="../image/Emmanuel's photo.png" alt="Emmanuel's photo"></td><td>
                 <table class="innerCell">
                     <tr><td>Reviews</td><td>535</td></tr>
                     <tr><td>Name</td><td>Emmanuel</td></tr>
@@ -102,6 +105,6 @@
             </td></tr>
         </table>
     </div>
-    
+    <script src="../script.js"></script>
 </body>
 </html>

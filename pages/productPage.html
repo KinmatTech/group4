@@ -9,14 +9,28 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo"><img src="../image/logo.jpg"></div>
-            <ul>
-                <li>EXPLORE</li>
-                <li>ABOUT US</li>
-                <li>CONTACT US</li>
-                <li>SIGN IN</li>
-            </ul>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="../image/Group 26.png"></a>
+                </div>
+                <div class="main_list" id="mainListDiv">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/explore.html">EXPLORE</a></li>
+                        <li><a href="../pages/about.html">ABOUT US</a></li>
+                        <li><a href="../pages/contactUs.html">CONTACT US</a></li>
+                        <li><a href="../pages/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="media_button">
+                    <button class="main_media_button" id="mediaButton">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="wrapper">
@@ -61,7 +75,7 @@
                         <p>They're a good source of vitamins, minerals and fiber. Potatoes are low in calories, contain no fat or cholesterol, and are sodium-free. They're high in vitamin C and potassium and are a good source of vitamin B6. A medium potato, about 5.5 ounces, contains only 145 calories.</p>
                     
                             <div id="group">
-                                <button>+  Add to Cart</button>
+                                <button ><a style="color: var(   --green-light);" href="../pages/checkoutPage.html">+  Add to Cart</a></button>
                                 <img src="../image/love.png" alt="">
                             </div>
                     </div>    
@@ -70,5 +84,6 @@
         
     
     </div>
+    <script src="../script.js"></script>
 </body>
 </html>

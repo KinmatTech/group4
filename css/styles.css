@@ -794,14 +794,16 @@ footer{
 
 
      @media (max-width:960px){
+
+        
         
         main, footer{
             display: flex;
             flex-direction: column;
             justify-content: center;
             /* align-items: flex-start; */
-        margin: 0 6rem 0 6rem;  
-        padding: 0 24px 0 24px; 
+        /* margin: 0 6rem 0 6rem;  
+        padding: 0 24px 0 24px;  */
     }
     .inp{
         width: 200px;

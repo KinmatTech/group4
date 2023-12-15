@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.write-up {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.write-up>h2{
+    text-align: center;
+    /* color: ; */
+    margin-bottom: 20px;
+}
+
+.term span{
+    display: block;
+    font-weight: bold;
+    margin: 20px 0px 3px 0px;
+}

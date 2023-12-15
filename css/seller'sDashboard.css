@@ -25,73 +25,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.nav {
-    background-color: var(--nav--color);
-    box-shadow: 0 .4rem .4rem 0 rgba(0, 0, 0, 0.25);
-   backdrop-filter: blur(.2rem);
-   border:  .1rem solid var(--nav--color);
-   height:  8rem;
-   padding: 0 12rem;
-   z-index: 10000;
-}
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.nav--btn {
-    background-color: transparent;
-    border: none;
-    display: none;
-}
-
-.hidden {
-    display: none;
-}
-
-.logo {
-    width: 20rem;
-}
-
-.logotxt {
-    text-align: center;
-    font-size: 1.4rem;
-}
-
-
-.leaf {
-    width: 2.9rem;
-}
-
-.f {
-    color: var(--darkest-green-color);
-}
-
-.f, .a, .mers {
-    font-size:  3.6rem;
-    font-weight: 700;
-    letter-spacing: -0.396px;}
-
-    .details--nav li {
-    list-style: none;
-    
-}
-.details--nav{
-    display: flex;
-}
-
-.details--nav li a {
-    text-decoration: none;
-    padding-right: 2rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-   line-height: 150%; 
-   letter-spacing: -0.154rem;
-   color:  var(--darkest-green-color);
-}
 .main {
     padding: 4rem 12rem;
     position: relative;

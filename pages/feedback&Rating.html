@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="../css/feedback&Rating.css">
 </head>
 <body>
-    <input type="checkbox" id="check">
     <header>
-        <div class="logo">
-            <img src="../image/Group 26.png" alt="logo">
-        </div>
-        <div class="nav-items">
-            <a href="#">HOME</a>
-            <a href="#">EXPLORE</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">CONTACT US</a>
-            <div class="login">
-                <a href="#">LOGIN</a>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="../image/Group 26.png"></a>
+                </div>
+                <div class="main_list" id="mainListDiv">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/explore.html">EXPLORE</a></li>
+                        <li><a href="../pages/about.html">ABOUT US</a></li>
+                        <li><a href="../pages/contactUs.html">CONTACT US</a></li>
+                        <li><a href="../pages/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="media_button">
+                    <button class="main_media_button" id="mediaButton">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
             </div>
-        </div>
-        <label for="check">
-            <img src="../image/Vector (2).png" alt="menu button" class="menu-btn">
-            <p class="cancel-btn">Cancel</p>
-        </label>
+        </nav>
     </header>
     <div class="feedback-container">
         <div class="feedback-title"><h3 class="feedback-head">FEEDBACK FORM</h3></div>
@@ -54,7 +60,7 @@
     </div>
 
     <div class="feed-button">
-        <button type="submit" class="feed-btn">Submit</button>
+        <button type="submit" class="feed-btn"><a style="color: var(--green-light);" onclick="alert('Feedback successfully submited')">Submit</a></button>
     </div>
 
     <footer>
@@ -88,5 +94,6 @@
             <div class="three"><img src="./image/twiter.png"><img src="./image/instagram.png"><img src="./image/facebook.png"></div>
         </div>
     </footer> 
+    <script src="../script.js"></script>
 </body>
 </html>
